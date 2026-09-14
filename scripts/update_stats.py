@@ -27,6 +27,8 @@ ROOT = Path(__file__).resolve().parent.parent
 ASSETS = ROOT / "assets"
 BAR_WIDTH = 48
 RHYTHM_BAR_WIDTH = 30
+# Below this many visible commits the token likely lacks repo access; keep the old block.
+RHYTHM_MIN_COMMITS = 50
 TOP_LANGUAGES = 6
 CHANGELOG_MONTHS = 6
 TREND_MONTHS = 12
@@ -476,6 +478,12 @@ def main() -> int:
     metrics = fetch_metrics(token, now)
     days = [day for week in metrics["weeks"] for day in week]
     commit_times = fetch_commit_times(token, metrics["user_id"], now - timedelta(days=365))
+    if len(commit_times) < RHYTHM_MIN_COMMITS:
+        print(
+            f"warning: only {len(commit_times)} commits visible, keeping the existing work rhythm block"
+            " (token needs Contents: read on the repositories)",
+            file=sys.stderr,
+        )
 
     ASSETS.mkdir(exist_ok=True)
     for lang in LANGS.values():
@@ -484,9 +492,10 @@ def main() -> int:
         blocks = {
             "HEALTH": render_health(activity_insights(days, today, lang)),
             "STATS": render_stats(metrics, now, lang),
-            "RHYTHM": render_rhythm(commit_times, lang),
             "CHANGELOG": render_changelog(days, today, lang),
         }
+        if len(commit_times) >= RHYTHM_MIN_COMMITS:
+            blocks["RHYTHM"] = render_rhythm(commit_times, lang)
         try:
             for name, content in blocks.items():
                 readme = replace_block(readme, name, content)
