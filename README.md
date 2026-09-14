@@ -5,7 +5,7 @@ __   __        _
   | |  __/\__ \ | | | |_| |
   |_|\___||___/_| |_|\__,_|
 
- :: Software Engineer ::                              (Enterprise Edition)
+ :: Solutions Engineer ::                             (Enterprise Edition)
 
 INFO  --- [  main] profile.Yeshu  : Starting profile ...
 INFO  --- [  main] profile.Yeshu  : Role         -> Solutions Engineer @ mesoneer
