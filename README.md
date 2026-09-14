@@ -22,6 +22,46 @@ und wartbare **Angular**-Frontends für den produktiven Einsatz in grossen Organ
 Mein Fokus liegt auf sauberen Schnittstellen, klarer Schichtenarchitektur und Code, der
 auch nach Jahren noch verständlich bleibt.
 
+## Status
+
+<!-- HEALTH:START -->
+```http
+GET /actuator/health HTTP/1.1
+Host: github.com/Yeshush
+```
+
+```json
+{
+  "status": "UP",
+  "components": {
+    "backend": {
+      "status": "UP",
+      "details": {
+        "stack": "Java · Spring Boot"
+      }
+    },
+    "frontend": {
+      "status": "UP",
+      "details": {
+        "stack": "Angular · TypeScript"
+      }
+    },
+    "activity": {
+      "status": "UP",
+      "details": {
+        "lastContribution": "2026-09-14",
+        "currentStreakDays": 1,
+        "longestStreakDays": 6,
+        "activeDays": "96 / 366",
+        "busiestWeekday": "Montag",
+        "bestDay": "2025-12-01 (115 Contributions)"
+      }
+    }
+  }
+}
+```
+<!-- HEALTH:END -->
+
 ## Architektur, die ich baue
 
 ```mermaid
@@ -46,10 +86,15 @@ flowchart LR
 
 ## Aktivität
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"/>
+  <img src="assets/activity-light.svg" alt="Contribution-Heatmap der letzten 12 Monate"/>
+</picture>
+
 <!-- STATS:START -->
 | Contributions (12 Monate) | Repositories | Contributions 2024 → 2025 → 2026* |
 |:---:|:---:|:---:|
-| **1'161** | **23** (5 öffentlich) | **289 → 643 → 703** |
+| **1'162** | **23** (5 öffentlich) | **289 → 643 → 704** |
 
 ```text
 TypeScript   █████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░  43.3 %
