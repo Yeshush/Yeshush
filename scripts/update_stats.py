@@ -97,19 +97,15 @@ def render(metrics: dict, now: datetime) -> str:
     years = sorted(metrics["per_year"])
     trend = " → ".join(swiss(metrics["per_year"][y]) for y in years)
     return f"""{START}
-> Automatisch aktualisiert am {now:%d.%m.%Y} · inkl. privater Repositories
-
-| 🔥 Contributions (letzte 12 Monate) | 📦 Eigene Repositories | 📈 {" → ".join(map(str, years))}* |
+| Contributions (12 Monate) | Repositories | Contributions {" → ".join(map(str, years))}* |
 |:---:|:---:|:---:|
 | **{swiss(metrics["last_year"])}** | **{metrics["repos_total"]}** ({metrics["repos_public"]} öffentlich) | **{trend}** |
-
-<sub>* {years[-1]} bis heute.</sub>
-
-**Meistgenutzte Sprachen** (nach Codemenge über alle eigenen Repos)
 
 ```text
 {language_chart(metrics["languages"])}
 ```
+
+<sub>Inkl. privater Repositories · Sprachen nach Codemenge · * {years[-1]} bis heute · automatisch aktualisiert am {now:%d.%m.%Y}</sub>
 {END}"""
 
 

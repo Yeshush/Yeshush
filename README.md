@@ -1,61 +1,55 @@
-<h1 align="center">Hi, ich bin Yeshu 👋</h1>
-<h3 align="center">AI with the Braids · Informatik-Student an der ZHAW</h3>
+```text
+__   __        _
+\ \ / /__  ___| |__  _   _
+ \ V / _ \/ __| '_ \| | | |
+  | |  __/\__ \ | | | |_| |
+  |_|\___||___/_| |_|\__,_|
 
-<p align="center">
-  <a href="https://github.com/Yeshush"><img src="https://img.shields.io/github/followers/Yeshush?label=Follow&style=social" alt="GitHub Followers"/></a>
-  <img src="https://komarev.com/ghpvc/?username=Yeshush&color=blueviolet&style=flat" alt="Profile Views"/>
-</p>
+ :: Software Engineer ::                              (Enterprise Edition)
 
----
+INFO  --- [  main] profile.Yeshu  : Starting profile ...
+INFO  --- [  main] profile.Yeshu  : Role         -> Software Engineer @ mesoneer
+INFO  --- [  main] profile.Yeshu  : Backend      -> Java · Spring Boot
+INFO  --- [  main] profile.Yeshu  : Frontend     -> Angular · TypeScript
+INFO  --- [  main] profile.Yeshu  : Education    -> BSc Informatik, ZHAW
+INFO  --- [  main] profile.Yeshu  : Started profile, ready to connect.
+```
 
-## 💫 Über mich
+## Profil
 
-- 💼 Arbeite bei [**mesoneer**](https://mesoneer.io)
-- 🎓 Studiere Informatik an der **ZHAW School of Engineering (InIT)**
-- 🔭 Aktuell an meiner Bachelorarbeit: **STAIX – Sticker AI Exchange** (Computer Vision mit YOLOv8 & PaddleOCR)
-- 🌱 Lerne gerade funktionale Programmierung mit **Haskell**
-<!-- TODO: Weitere Punkte ergänzen, z. B. 💬 Frag mich zu … / 📫 Kontakt: … / ⚡ Fun Fact: … -->
+Ich entwickle Enterprise-Applikationen von Ende zu Ende: robuste **Spring Boot**-Backends
+und wartbare **Angular**-Frontends für den produktiven Einsatz in grossen Organisationen.
+Mein Fokus liegt auf sauberen Schnittstellen, klarer Schichtenarchitektur und Code, der
+auch nach Jahren noch verständlich bleibt.
 
-## 💻 Tech Stack
+## Architektur, die ich baue
 
-**Sprachen**
+```mermaid
+flowchart LR
+    UI["Angular SPA<br/><sub>Components · Services · RxJS</sub>"]
+    API["Spring Boot<br/><sub>REST Controller</sub>"]
+    SVC["Business Logic<br/><sub>Services · Validierung</sub>"]
+    DATA["Persistenz<br/><sub>Spring Data · JPA</sub>"]
+    DB[("Datenbank")]
 
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
-![Haskell](https://img.shields.io/badge/Haskell-5e5086?style=for-the-badge&logo=haskell&logoColor=white)
+    UI -- "REST / JSON" --> API --> SVC --> DATA --> DB
+```
 
-**Web**
+## Stack
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Astro](https://img.shields.io/badge/astro-%232C2052.svg?style=for-the-badge&logo=astro&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+| Bereich | Technologien |
+|:--|:--|
+| **Backend** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) |
+| **Frontend** | ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
+| **Daten & Betrieb** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
+| **Weitere** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) |
 
-**AI / Computer Vision**
-
-![YOLO](https://img.shields.io/badge/YOLOv8-111F68?style=for-the-badge&logo=ultralytics&logoColor=white)
-![PaddleOCR](https://img.shields.io/badge/PaddleOCR-0062B0?style=for-the-badge&logo=paddlepaddle&logoColor=white)
-
-## 📊 GitHub Stats
+## Aktivität
 
 <!-- STATS:START -->
-> Automatisch aktualisiert am 14.09.2026 · inkl. privater Repositories
-
-| 🔥 Contributions (letzte 12 Monate) | 📦 Eigene Repositories | 📈 2024 → 2025 → 2026* |
+| Contributions (12 Monate) | Repositories | Contributions 2024 → 2025 → 2026* |
 |:---:|:---:|:---:|
 | **1'161** | **23** (5 öffentlich) | **289 → 643 → 703** |
-
-<sub>* 2026 bis heute.</sub>
-
-**Meistgenutzte Sprachen** (nach Codemenge über alle eigenen Repos)
 
 ```text
 TypeScript   █████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░  43.3 %
@@ -66,8 +60,13 @@ JavaScript   ██░░░░░░░░░░░░░░░░░░░░�
 CSS          ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.4 %
 Andere       ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.9 %
 ```
+
+<sub>Inkl. privater Repositories · Sprachen nach Codemenge · * 2026 bis heute · automatisch aktualisiert am 14.09.2026</sub>
 <!-- STATS:END -->
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Yeshush&theme=dark&hide_border=true" alt="GitHub Streak"/>
-</p>
+## Kontakt
+
+[![mesoneer](https://img.shields.io/badge/mesoneer-mesoneer.io-1F2937?style=flat-square)](https://mesoneer.io)
+<!-- TODO: LinkedIn / E-Mail ergänzen, z. B.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/DEIN-PROFIL)
+-->
