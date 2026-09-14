@@ -156,4 +156,5 @@ Peak hour: 20:00–21:00
 
 ## Contact
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Yeshu-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://ch.linkedin.com/in/yeshu-gudian-042521211)
 [![mesoneer](https://img.shields.io/badge/mesoneer-mesoneer.io-1F2937?style=flat-square)](https://mesoneer.io)
