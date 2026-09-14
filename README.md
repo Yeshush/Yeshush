@@ -8,7 +8,7 @@ __   __        _
  :: Software Engineer ::                              (Enterprise Edition)
 
 INFO  --- [  main] profile.Yeshu  : Starting profile ...
-INFO  --- [  main] profile.Yeshu  : Role         -> Software Engineer @ mesoneer
+INFO  --- [  main] profile.Yeshu  : Role         -> Solutions Engineer @ mesoneer
 INFO  --- [  main] profile.Yeshu  : Backend      -> Java · Spring Boot
 INFO  --- [  main] profile.Yeshu  : Frontend     -> Angular · TypeScript
 INFO  --- [  main] profile.Yeshu  : Education    -> BSc Informatik, ZHAW
