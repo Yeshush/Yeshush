@@ -15,6 +15,8 @@ INFO  --- [  main] profile.Yeshu  : Education    -> BSc Informatik, ZHAW
 INFO  --- [  main] profile.Yeshu  : Started profile, ready to connect.
 ```
 
+**Deutsch** · [English](README.en.md)
+
 ## Profil
 
 Ich entwickle Enterprise-Applikationen von Ende zu Ende: robuste **Spring Boot**-Backends
@@ -49,10 +51,10 @@ Host: github.com/Yeshush
     "activity": {
       "status": "UP",
       "details": {
-        "lastContribution": "2026-09-14",
-        "currentStreakDays": 1,
+        "lastContribution": "2026-09-15",
+        "currentStreakDays": 2,
         "longestStreakDays": 6,
-        "activeDays": "96 / 366",
+        "activeDays": "97 / 367",
         "busiestWeekday": "Montag",
         "bestDay": "2025-12-01 (115 Contributions)"
       }
@@ -97,17 +99,60 @@ flowchart LR
 | **1'162** | **23** (5 öffentlich) | **289 → 643 → 704** |
 
 ```text
-TypeScript   █████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░  43.3 %
+TypeScript   █████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░  43.2 %
 PHP          ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  28.8 %
-Python       ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   9.0 %
+Python       ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   9.1 %
 C            ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   5.9 %
 JavaScript   ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.8 %
 CSS          ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.4 %
-Andere       ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.9 %
+Andere       ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.8 %
 ```
 
-<sub>Inkl. privater Repositories · Sprachen nach Codemenge · * 2026 bis heute · automatisch aktualisiert am 14.09.2026</sub>
+<sub>Inkl. privater Repositories · Sprachen nach Codemenge · * 2026 bis heute · automatisch aktualisiert am 15.09.2026</sub>
 <!-- STATS:END -->
+
+### Verlauf
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/trend-dark.svg"/>
+  <img src="assets/trend-light.svg" alt="Contributions pro Monat, letzte 12 Monate"/>
+</picture>
+
+### Arbeitsrhythmus
+
+<!-- RHYTHM:START -->
+```http
+GET /actuator/metrics/commits.hour HTTP/1.1
+Host: github.com/Yeshush
+```
+
+```text
+514 Commits · letzte 12 Monate · Zeitzone Europe/Zurich
+
+Nacht       00–06  █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    4 %
+Morgen      06–12  █████░░░░░░░░░░░░░░░░░░░░░░░░░   15 %
+Nachmittag  12–18  ██████████░░░░░░░░░░░░░░░░░░░░   34 %
+Abend       18–24  ██████████████░░░░░░░░░░░░░░░░   46 %
+
+Werktage           ████████████████████████████░░   92 %
+Wochenende         ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░    8 %
+
+Peak-Stunde: 20:00–21:00
+```
+<!-- RHYTHM:END -->
+
+## Changelog
+
+<!-- CHANGELOG:START -->
+```text
+[2026.09]  ▼  Contributions    28 · aktive Tage  7  (laufend)
+[2026.08]  ▲  Contributions    55 · aktive Tage  5
+[2026.07]  ▼  Contributions     1 · aktive Tage  1
+[2026.06]  ▼  Contributions    36 · aktive Tage  6
+[2026.05]  ▲  Contributions   143 · aktive Tage 16
+[2026.04]  ▼  Contributions    86 · aktive Tage 11
+```
+<!-- CHANGELOG:END -->
 
 ## Kontakt
 
