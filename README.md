@@ -96,7 +96,7 @@ flowchart LR
 <!-- STATS:START -->
 | Contributions (12 Monate) | Repositories | Contributions 2024 → 2025 → 2026* |
 |:---:|:---:|:---:|
-| **1'162** | **23** (5 öffentlich) | **289 → 643 → 704** |
+| **1'165** | **23** (5 öffentlich) | **289 → 643 → 707** |
 
 ```text
 TypeScript   █████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░  43.1 %
@@ -105,7 +105,7 @@ Python       ████░░░░░░░░░░░░░░░░░░�
 C            ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   5.9 %
 JavaScript   ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.8 %
 CSS          ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.4 %
-Andere       ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.8 %
+Andere       ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.9 %
 ```
 
 <sub>Inkl. privater Repositories · Sprachen nach Codemenge · * 2026 bis heute · automatisch aktualisiert am 15.09.2026</sub>
@@ -145,7 +145,7 @@ Peak-Stunde: 20:00–21:00
 
 <!-- CHANGELOG:START -->
 ```text
-[2026.09]  ▼  Contributions    28 · aktive Tage  7  (laufend)
+[2026.09]  ▼  Contributions    31 · aktive Tage  7  (laufend)
 [2026.08]  ▲  Contributions    55 · aktive Tage  5
 [2026.07]  ▼  Contributions     1 · aktive Tage  1
 [2026.06]  ▼  Contributions    36 · aktive Tage  6
